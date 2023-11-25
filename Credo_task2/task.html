@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <style>
+            body {
+                background-color:rgb(43, 132, 168);
+            }
+            .word {
+                color: white;
+                margin-left: 15px;
+            }
+
+            .box-0 {
+                display: flex;
+                float: left;
+                border-left: 5px solid white;
+                height: 150px;
+                
+            }
+           
+            .box-1 {
+                display: flex;
+                float: left;
+                width: 20%;
+                height: 100%;
+                margin-top: 100px;
+                margin-left: 100px;
+            }
+
+            .box-2 {
+                float: left;
+                border: 2px solid white;
+                width: 400px;
+                padding: 20px;
+                margin-left: 30px;
+                margin-top: 30px;
+                border-radius: 10px;
+                background-color: white;
+            }
+
+            .login_input {
+                border: none;
+                border-bottom: 2px solid black;
+            }
+
+            .btn-text-center {
+                width: 200px;
+                height: 30px;
+                border-radius: 10px;
+                margin-left: 90px;
+                background-color: skyblue;
+                
+            }
+                
+        </style>
+    </head>
+    <body>
+        <div class="background">
+        <div class="container">
+            <div class="box-1">
+                <div class="box-0"></div>
+                <h1 class="word">Simple Login Form HTML & CSS</h1>
+            </div>
+        </div>
+            <form class="login">
+            <div class="box-2">
+                <h2 style="text-align: center;">Login</h2>
+                <hr>
+                <input type="text" class="login_input" placeholder="Username" style="margin-left: 20px;"><br><br>
+                <input type="password" class="login_input" placeholder="Password" style="margin-left: 20px;"><br><br>
+                <p style="margin-left: 20px;">Forget Password?</p>
+                <button class="btn-text-center">Login</button>
+                <p style="text-align: center;">Not a Member?<a href="">Signup</a></p>
+            </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
